@@ -7,6 +7,42 @@ body {
 .header{
   text-align: center;
 }
+.header h1 {
+  font-weight: bold;
+  color: wheat;
+  font-size: 6vw;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  text-align: center;
+}
+
+.header p,
+.header h1 {
+  margin: 0;
+  color: wheat;
+}
+
+.header h3 {
+  position: relative;
+  color: wheat;
+  font-size: 3vw;
+  margin: 0;
+  padding: 0;
+}
+
+.header h3::before,
+.header h3::after {
+  content: "";
+  position: absolute;
+  left: 20%;
+  right: 20%;
+  border-top: 0.1vw solid black;
+  z-index: -2;
+}
+
 .header h3::before {
   top: 50%;
 }
