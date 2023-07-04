@@ -90,6 +90,7 @@ body {
 .rotating-images {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 .image-container{
   margin: 10px;
@@ -100,7 +101,19 @@ body {
 .image-container img {
   animation: spin 6s linear infinite;
   max-width: 100px;
+  transition: transform 0.3s ease;
 }
 .image-container h3 {
   margin: 0.5vw;
+}
+.image-container:hover {
+  transform: scale(1.1);
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
