@@ -56,3 +56,19 @@ body {
   background-color: rgb(109, 7, 7);
   padding: 1vw;
 }
+.starters{
+  text-align: center;
+  width: 30vw;
+  margin: auto;
+}
+.startersHeading {
+  display: flex;
+  font-size: 1.5vw;
+  color: wheat;
+  justify-content: space-between ;
+  
+}
+.pizzasHeading img,
+.startersHeading img {
+  max-height: 7vw;
+}
