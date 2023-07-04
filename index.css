@@ -60,6 +60,8 @@ body {
   width: 30vw;
   margin: auto;
 }
+
+.drinksHeading,
 .startersHeading {
   display: flex;
   font-size: 1.5vw;
@@ -78,12 +80,14 @@ body {
   margin: 0;
   padding: 0;
 }
+
 .startersContent p {
   margin: 0;
   margin-bottom: 1vw;
   padding: 0;
   font-size: 1vw;
 }
+
 .spinningPizzas {
   background-color: rgb(121, 13, 13);
   width: 80vw;
@@ -111,6 +115,33 @@ body {
 .image-container:hover {
   transform: scale(1.1);
 }
+
+.drinks {
+  text-align: center;
+}
+.headerContainer{
+  max-width: 15vw;
+  margin: auto;
+}
+.drinksHeading {
+  display: flex;
+}
+.drinksHeading h3 {
+  margin-top: 35px;
+}
+.drinksContent{
+  display: flex;
+  flex-wrap: wrap;
+  width: 50vw;
+  justify-content: space-around;
+  margin: auto;
+  
+}
+.drinksContent p{
+  font-size: 13px;
+  
+}
+
 @keyframes spin {
   0% {
     transform: rotate(0deg);
