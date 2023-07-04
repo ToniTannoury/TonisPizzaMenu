@@ -64,13 +64,13 @@ body {
 .drinksHeading,
 .startersHeading {
   display: flex;
-  font-size: 1.5vw;
-  justify-content: space-between ;
+  font-size: 20px;
+  justify-content: center;
 }
 
 .drinksHeading img,
 .startersHeading img {
-  max-height: 7vw;
+  max-height: 80px;
 }
 
 .startersContent {
@@ -85,7 +85,7 @@ body {
   margin: 0;
   margin-bottom: 1vw;
   padding: 0;
-  font-size: 1vw;
+  font-size: 13px;
 }
 
 .spinningPizzas {
@@ -120,14 +120,15 @@ body {
   text-align: center;
 }
 .headerContainer{
-  max-width: 15vw;
+  max-width: 250px;
   margin: auto;
 }
 .drinksHeading {
   display: flex;
 }
 .drinksHeading h3 {
-  margin-top: 35px;
+  font-size: large;
+  margin-top: 3vw;
 }
 .drinksContent{
   display: flex;
@@ -146,34 +147,20 @@ footer {
   text-align: center;
   padding: 2vw;
   color: wheat;
-  font-size: 1.5vw;
+  font-size: 20px;
 }
 
 .button {
   display: inline-block;
-  padding: 0.5vw 2vw;
+  padding: 10px 20px;
   background-color: wheat;
   text-decoration: none;
   border-radius: 20px;
-  font-size: 1.6vw;
-  margin: 1vw;
+  font-size: 20px;
+  margin: 5px;
   color: black;
 }
-.button i.fas.fa-info-circle {
-  font-size: 50px;
-  padding: 30px;
-  visibility: visible;
-  position: relative;
-  top: 3px;
-  
-}
-.button i.fas.fa-phone {
-  font-size: 50px;
-  padding: 30px;
-  visibility: visible;
-  position: relative;
-  top: 3px;
-}
+
 button i{
   color: black;
 }
@@ -189,5 +176,9 @@ button i{
 @media (max-width: 600px) {
   .image-container {
     width: 100vw;
+  }
+  footer{
+    display: flex;
+    flex-direction: column;
   }
 }
